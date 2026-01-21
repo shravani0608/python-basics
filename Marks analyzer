@@ -1,0 +1,9 @@
+students = {
+    "Amit": [78, 85, 90],
+    "Neha": [88, 92, 80],
+    "Ravi": [70, 75, 68]
+}
+
+for name, marks in students.items():
+    avg = sum(marks) / len(marks)
+    print(f"{name} Average: {avg:.2f}")
